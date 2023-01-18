@@ -1,0 +1,41 @@
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    background-color: #2B2F3B;
+    padding: 2rem;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logonav{
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.logonav2{
+    display: none;
+    transition: 0.5s;
+}
+
+#itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.item{
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.item a{
+    color: white;
+}
