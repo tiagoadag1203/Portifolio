@@ -4,8 +4,9 @@
 html, body{
     overflow-x: hidden;
     font-family: 'Quicksand', sans-serif;
+    color: #1a1a1a;
     scroll-behavior: smooth;
-    background-color: #16181E;
+    background-color: #E4EDEC;
 }
 
 a{
@@ -14,21 +15,18 @@ a{
 
 p, li, span{
     font-family: 'Comfortaa', cursive;
-    color: white;
 }
 
 h1{
     font-family: 'Righteous', cursive;
     font-size: 4rem;
     text-align: center;
-    color: white;
 }
 
 h2{
     font-family: 'Righteous', cursive;
     font-size: 2rem;
     text-align: center;
-    color: white;
 }
 
 .bloco{

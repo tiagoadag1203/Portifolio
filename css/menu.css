@@ -2,7 +2,7 @@
 #navbar{
     position: sticky;
     top: 0px;
-    background-color: #2B2F3B;
+    background-color: #BBD2CF;
     padding: 2rem;
 }
 
@@ -20,7 +20,7 @@
 
 .logonav2{
     display: none;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #itens{
@@ -37,5 +37,5 @@
 }
 
 .item a{
-    color: white;
+    color: #1a1a1a;
 }
