@@ -2,6 +2,11 @@
     p{
         padding: 3rem 10rem;
     }
+
+    h3{
+        text-align: left;
+    }
+    
     .item:hover{
         font-size: 1.3rem;
     }
