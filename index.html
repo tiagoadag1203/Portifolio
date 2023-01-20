@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3c0f3a3fc8.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -32,13 +34,13 @@
     <main>
         <section id="intro">
             <div id="principal">
-                <img id="imgtiago" src="imgs/tiago.jpg" alt="">
+                <img data-aos="fade-right" data-aos-duration="500" id="imgtiago" src="imgs/tiago.jpg" alt="">
                 <div class="subprincipal">
-                    <h1>Olá! Eu sou o Tiago</h1>
-                    <p>Experiente em HTML,CSS e Cloud Practitioner AWS, estou sempre em busca de maior conhecimento, experiência e novas habilidades. </p>
+                    <h1 data-aos="fade-left" data-aos-duration="500">Olá! Eu sou o Tiago</h1>
+                    <p data-aos="fade-left" data-aos-duration="700">Experiente em HTML,CSS e Cloud Practitioner AWS, estou sempre em busca de maior conhecimento, experiência e novas habilidades. </p>
                     <div id="social">
                         <a href="https://www.canva.com/design/DAE30CvPTec/z5n7qBgvbsCGZbzoktk0Rw/view?utm_content=DAE30CvPTec&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
-                            <button id="cv">
+                            <button data-aos="fade-left" data-aos-duration="700" id="cv">
                                 <div class="svg-wrapper-1">
                                   <div class="svg-wrapper">
                                     <i class="fa-solid fa-file"></i>
@@ -48,7 +50,7 @@
                             </button>
                         </a>
                         <a href="https://www.linkedin.com/in/tiago-augusto-dal-acqua-gonçalves-44983321b/" target="_blank">
-                            <button id="linkedin">
+                            <button data-aos="fade-left" data-aos-duration="900" id="linkedin">
                                 <div class="svg-wrapper-1">
                                   <div class="svg-wrapper">
                                     <i class="fa-brands fa-linkedin"></i>
@@ -58,7 +60,7 @@
                             </button>
                         </a>
                         <a href="https://github.com/tiagoadag1203" target="_blank">
-                            <button id="github">
+                            <button data-aos="fade-left" data-aos-duration="1100" id="github">
                                 <div class="svg-wrapper-1">
                                   <div class="svg-wrapper">
                                     <i class="fa-brands fa-github"></i>
@@ -76,28 +78,28 @@
             <div id="hardskill" class="bloco">
                 <h2>Hard Skills</h2>
 
-                <div id="html" class="barra">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" id="html" class="barra">
                     <span>HTML5</span>
                     <div class="progressbar">
                         <div class="progresso"></div>
                     </div>
                 </div>
 
-                <div id="css" class="barra">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" id="css" class="barra">
                     <span>CSS</span>
                     <div class="progressbar">
                         <div class="progresso"></div>
                     </div>
                 </div>
 
-                <div id="aws" class="barra">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" id="aws" class="barra">
                     <span>AWS</span>
                     <div class="progressbar">
                         <div class="progresso"></div>
                     </div>
                 </div>
 
-                <div id="php" class="barra">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" id="php" class="barra">
                     <span>PHP</span>
                     <div class="progressbar">
                         <div class="progresso"></div>
@@ -121,5 +123,9 @@
             </div>
         </section>
     </main>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
