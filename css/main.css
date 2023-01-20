@@ -55,7 +55,8 @@ button {
 }
 
 #github{
-  background: white;
+  background: #1a1a1a;
+  color: white;
 }
   
   button span {
@@ -63,6 +64,13 @@ button {
     margin-left: 0.5em;
     transition: all 0.3s ease-in-out;
     color: #16181E;
+  }
+
+  #github span{
+    display: block;
+    margin-left: 0.5em;
+    transition: all 0.3s ease-in-out;
+    color: white;
   }
   
   button svg {
@@ -113,13 +121,13 @@ button {
   }
 
   .progressbar {
-    background-color: black;
+    background-color: #BBD2CF;
     border-radius: 13px;
     padding: 3px;
   }
 
   .progresso{
-    background: linear-gradient(232deg, #7FDCCF 0%, #378FE9 100%);
+    background: linear-gradient(232deg, #8085C2 0%, #378FE9 100%);
     height: 10px;
     border-radius: 10px;
   }
