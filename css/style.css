@@ -3,7 +3,7 @@
 
 html, body{
     overflow-x: hidden;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: #1a1a1a;
     scroll-behavior: smooth;
     background-color: #E4EDEC;
@@ -13,8 +13,10 @@ a{
     text-decoration: none;
 }
 
-p, li, span{
-    font-family: 'Comfortaa', cursive;
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem 10rem;
 }
 
 h1{
@@ -26,6 +28,11 @@ h1{
 h2{
     font-family: 'Righteous', cursive;
     font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
     text-align: center;
 }
 
