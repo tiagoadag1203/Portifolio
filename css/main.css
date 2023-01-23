@@ -147,3 +147,9 @@ button {
   #php>div>div {
     width: 10%;
   }
+
+  /*SOFT SKILLS*/
+
+  #soft__skills>div>div>h3{
+    text-align: left;
+  }
