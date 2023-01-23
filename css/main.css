@@ -153,3 +153,12 @@ button {
   #soft__skills>div>div>h3{
     text-align: left;
   }
+
+
+
+  /*certificados*/
+
+  .img_certificado{
+    background-color: #16181E;
+    width: 10rem;
+  }
