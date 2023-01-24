@@ -6,7 +6,17 @@ html, body{
     font-family: 'Comfortaa', cursive;
     color: #1a1a1a;
     scroll-behavior: smooth;
-    background-color: #E4EDEC;
+    background-color: #FCFDFD;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    margin-top: 5rem;
 }
 
 a{
@@ -36,12 +46,3 @@ h3{
     text-align: center;
 }
 
-.bloco{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    gap: 3rem;
-    margin-top: 5rem;
-}
