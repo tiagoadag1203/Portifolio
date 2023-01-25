@@ -144,11 +144,14 @@
         
         <section id="contato">
             <h2>Contato</h2>
-            <form action="" method="post">
-                <input type="text" name="nome" placeholder="Nome">
-                <input type="email" name="email" placeholder="E-mail">
-                <textarea name="mensagem" id="" cols="22" rows="5" placeholder="Digite sua Mensagem"></textarea>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="mensagem" id="" cols="22" rows="5" placeholder="Digite sua Mensagem" required></textarea>
                 <button type="submit">Enviarr</button>
+
+                <input type="hidden" name="accessKey" value="6b748992-b0e6-4774-a4c4-d268108e85cb">
+                <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
             </form>
         </section>
     </main>
