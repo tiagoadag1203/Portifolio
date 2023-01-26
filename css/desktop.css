@@ -49,4 +49,14 @@
   .barra{
     width: 60%;
   }
+
+  /*contato*/
+
+  input{
+    width: 20rem;
+  }
+
+  textarea{
+    width: 20rem;
+  }
 }
