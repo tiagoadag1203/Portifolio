@@ -209,3 +209,34 @@ input {
   border-radius: 1rem;
   border-color: black;
  }
+
+
+ /*rodape*/
+
+ #rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #BBD2CF;
+    padding: 1rem;
+    gap: 10px;
+ }
+
+ #rodape svg{
+  font-size: 2rem;
+  transition: 0.3s;
+ }
+
+ #rodape svg:hover{
+  transform: scale(1.2);
+ }
+
+ .logorodape{
+  width: 7rem;
+  transition: 0.3s;
+ }
+ 
+ .logorodape:hover{
+  transform: scale(1.2)
+}
