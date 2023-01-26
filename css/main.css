@@ -129,11 +129,15 @@ button:active .button_top {
 /*certificados*/
 
 .card {
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
   background: #FCFDFD;
   border: 1px solid white;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-  backdrop-filter: blur(6px);
   border-radius: 17px;
   text-align: center;
   cursor: pointer;
@@ -150,12 +154,8 @@ button:active .button_top {
   border-radius: 1rem;
 }
 
-#cards__certificados {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
+
+
 
 /*contato*/
 
