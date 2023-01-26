@@ -120,7 +120,7 @@ button:active .button_top {
 
 /*SOFT SKILLS*/
 
-#soft__skills>div>div>h3 {
+#soft__skills h3 {
   text-align: left;
 }
 
@@ -129,6 +129,8 @@ button:active .button_top {
 /*certificados*/
 
 .card {
+  width: 20rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
