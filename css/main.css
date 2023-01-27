@@ -141,12 +141,11 @@ button:active .button_top {
   height: 10rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   background: #FCFDFD;
-  border: 1px solid white;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
   border-radius: 17px;
   text-align: center;
@@ -156,7 +155,7 @@ button:active .button_top {
 
 .card:hover {
   border: 2px solid black;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .card img {
