@@ -1,4 +1,8 @@
 @media only screen and (min-device-width: 521px){
+    #principa{
+        flex-wrap: wrap;
+    }
+    
     #imgtiago{
         width: 50%;
     }
