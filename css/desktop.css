@@ -24,6 +24,7 @@
     #principal{
         flex-direction: row;
         margin-top: 1rem;
+        flex-wrap: wrap;
     }
 
     #imgtiago{
