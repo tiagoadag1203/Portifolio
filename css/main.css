@@ -10,6 +10,10 @@
   gap: 2rem;
 }
 
+#principal h3{
+  text-align: center;
+}
+
 #imgtiago {
   width: 100%;
   border-radius: 3rem;
@@ -83,6 +87,13 @@ button:active .button_top {
   transform: translateY(0);
 }
 
+/*sobre mim*/
+
+#sobremim p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 
 /*hard skills*/
 
@@ -139,12 +150,30 @@ button:active .button_top {
 .card-img-top{
   border-radius: 10px;
   padding: 2rem;
-  background-color: #eeeeee;
+  background-color: #eeeeee8e;
 }
 
+.card-body{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-titulo{
+  padding: 5px;
+  width:fit-content;
+  background-color: #BBD2CF;
+  border-radius: 4px;
+
+}
 /*contato*/
 
-
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /*rodape*/
 

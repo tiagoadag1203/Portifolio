@@ -19,6 +19,10 @@
         margin-top: 1rem;
     }
 
+    #principal h3{
+        text-align: left;
+      }
+
     #imgtiago{
         width: 30%;
     }
@@ -34,6 +38,12 @@
     #social{
         flex-direction: row;
     }
+
+    /*sobre mim*/
+
+    #sobremim p{
+        padding: 0 10rem;
+      }
 
 
 

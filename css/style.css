@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 
 html, body{
     overflow-x: hidden;
     font-family: 'Comfortaa', cursive;
     color: #1a1a1a;
     scroll-behavior: smooth;
-    background-color: #FCFDFD;
+    background-color: white;
 }
 
 section{
@@ -25,13 +28,13 @@ a{
 }
 
 h1{
-    font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 4rem;
     text-align: center;
 }
 
 h2{
-    font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 2rem;
     text-align: center;
 }

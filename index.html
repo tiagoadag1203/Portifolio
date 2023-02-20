@@ -20,24 +20,18 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="/imgs/logo.png"><img src="/imgs/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#"><img src="/imgs/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                </ul>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                </div>
               </div>
             </div>
           </nav>
@@ -130,12 +124,14 @@
                 <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="700"> 
                     <img src="imgs/multimidia.png" class="card-img-top" alt="...">
                     <div class="card-body">
+                        <p class="card-titulo">Multimídia Educacional</p>
                         <p class="card-text">Estagiário - 2023 até o momento</p>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;" data-aos="fade-up" data-aos-duration="700">
                     <img src="imgs/drtis.png" class="card-img-top" alt="...">
                     <div class="card-body">
+                        <p class="card-titulo">Dr.Tis</p>
                         <p class="card-text">Programador Trainee - Abril até Novembro 2022</p>
                     </div>
                 </div>
@@ -145,20 +141,21 @@
         <section id="contato">
             <h2 data-aos="fade-up" data-aos-duration="700">Contato</h2>
             <form action="https://formsubmit.co/tiago.adag@gmail.com" method="post" data-aos="fade-up" data-aos-duration="700">
-                <!-- <input type="text" name="nome" placeholder="Seu Nome" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <textarea name="mensagem" id="" cols="22" rows="5" placeholder="Digite sua Mensagem" required></textarea>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Name" required>
+                    <label for="floatingInput">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Password" required>
+                    <label for="floatingPassword">E-Mail</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea type="text" class="form-control" id="floatingInput" rows="100" placeholder="escreva sua mensagem" required></textarea>
+                    <label for="floatingInput">Digite sua mensagem</label>
+                </div>
                 <button type="submit"><span class="button_top">Enviar</span></button>
 
-                <input type="hidden" name="redirectTo" value="Obrigado.html"> -->
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
-                  </div>
-                  <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
-                  </div>
+                <input type="hidden" name="redirectTo" value="Obrigado.html">
             </form>
         </section>
     </main>
