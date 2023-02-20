@@ -24,14 +24,13 @@
     #principal{
         flex-direction: row;
         margin-top: 1rem;
-        flex-wrap: wrap;
     }
 
     #imgtiago{
         width: 30%;
     }
 
-    #principal p{
+    #principal h3{
         text-align: left;
     }
 
