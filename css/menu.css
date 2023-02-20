@@ -1,40 +1,12 @@
 
-#navbar{
-    top: 0px;
-    background-color: #BBD2CF;
-    padding: 2rem;
+nav img{
+    width: 5rem;
 }
 
-#nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.navbar-nav{
+    gap: 1rem;
 }
 
-.logonav{
-    width: 6rem;
-    margin-bottom: 2rem;
-}
-
-.logonav2{
-    display: none;
-    transition: 0.3s;
-}
-
-#itens{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.item{
-    font-size: 1rem;
-    transition: 0.3s;
-}
-
-.item a{
-    color: #1a1a1a;
+.nav-item{
+    font-size: 1.5rem;
 }

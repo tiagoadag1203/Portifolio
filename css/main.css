@@ -124,47 +124,18 @@ button:active .button_top {
   text-align: left;
 }
 
-
-
 /*experiencia*/
+
 .cards_experiencia{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-  margin: 1rem;
+  flex-direction: row;
+  gap: 2rem;
 }
 
-.card {
-  width: 15rem;
-  height: 10rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  background: #FCFDFD;
-  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-  border-radius: 17px;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s;
+.card-img-top{
+  padding: 2rem;
+  background-color:lightgray;
 }
-
-.card:hover {
-  border: 2px solid black;
-  transform: scale(1.1);
-}
-
-.card img {
-  width: 10rem;
-  border-radius: 1rem;
-}
-
-
-
 
 /*contato*/
 
