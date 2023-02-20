@@ -132,9 +132,14 @@ button:active .button_top {
   gap: 2rem;
 }
 
+.card{
+  border-radius: 10px;
+}
+
 .card-img-top{
+  border-radius: 10px;
   padding: 2rem;
-  background-color: #8085C2;
+  background-color: #eeeeee;
 }
 
 /*contato*/
