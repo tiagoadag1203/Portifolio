@@ -12,5 +12,9 @@ nav img{
 }
 
 .nav-link{
-    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    font-size: 1.2rem;
 }
