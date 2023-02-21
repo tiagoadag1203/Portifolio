@@ -11,15 +11,6 @@
 @media only screen and (min-device-width: 903px){
 
 
-    .logonav{
-        display: none;
-    }
-
-    .logonav2{
-        display: list-item;
-        width: 6rem;
-    }
-
     /*main*/
 
     #imgtiago{

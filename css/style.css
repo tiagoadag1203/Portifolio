@@ -4,12 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 
+:root{
+  --body-bg: #ffff;
+  --nav-bg: #BBD2CF;
+  --text: #1a1a1a;
+  --color-link: #1a1a1a;
+  --img-bg-card: #eeeeee8e;
+  --border-card: #d4d4d4d2;
+  --bg-form: white;
+}
+
 html, body{
     overflow-x: hidden;
     font-family: 'Comfortaa', cursive;
-    color: #1a1a1a;
+    color: var(--text);
     scroll-behavior: smooth;
-    background-color: white;
+    background-color: var(--body-bg);
 }
 
 section{

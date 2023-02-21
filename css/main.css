@@ -102,7 +102,7 @@ button:active .button_top {
 }
 
 .progressbar {
-  background-color: #BBD2CF;
+  background-color: #eeeeee65;
   border-radius: 13px;
   padding: 3px;
 }
@@ -141,16 +141,20 @@ button:active .button_top {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .card{
   border-radius: 10px;
+  background-color: #00000000;
+  border-color: var(--border-card);
 }
 
 .card-img-top{
   border-radius: 10px;
   padding: 2rem;
-  background-color: #eeeeee8e;
+  background-color: var(--img-bg-card);
 }
 
 .card-body{
@@ -175,6 +179,11 @@ form{
   align-items: center;
 }
 
+.form-control, #floatingInput{
+  background-color: var(--bg-form);
+  color: white;
+}
+
 /*rodape*/
 
 #rodape {
@@ -182,7 +191,7 @@ form{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #BBD2CF;
+  background-color: var(--nav-bg);
   padding: 1rem;
   gap: 10px;
 }
