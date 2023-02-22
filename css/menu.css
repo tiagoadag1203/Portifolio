@@ -1,16 +1,23 @@
-.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    background-color: var(--nav-bg);
-    padding: 1rem;
+header{
+  display: flex;
+  justify-content: center;
 }
 
+.navbar{
+    position: fixed;
+    width: 95%;
+    z-index: 999;
+    background-color: #30313600;
+    border: solid 3px var(--nav-bg);
+    margin: 0.5rem;
+    border-radius: 10px;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+}
 
 nav img{
     width: 8rem;
     color: white;
-    filter: drop-shadow(0px 0px 12px #FFFFFF);
 }
 
 .navbar-nav{

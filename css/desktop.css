@@ -2,7 +2,10 @@
   #navbarNavAltMarkup{
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+}
+
+.navbar{
+  width: 99%;
 }
     
 
