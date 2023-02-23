@@ -115,7 +115,7 @@ button:active .button_top {
 }
 
 .progresso {
-  background: linear-gradient(232deg, #8085C2 0%, #378FE9 100%);
+  background: linear-gradient(90deg, #BBD2CF 50%, #667572 200%);
   height: 10px;
   border-radius: 10px;
 }
