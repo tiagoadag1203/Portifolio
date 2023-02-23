@@ -12,6 +12,8 @@
   --img-bg-card: #eeeeee8e;
   --border-card: #d4d4d4d2;
   --bg-form: white;
+  --bs-primary: red;
+  --bs-primary-border-subtle: red;
 }
 
 html, body{
