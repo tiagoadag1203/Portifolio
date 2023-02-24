@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 
-:root{
+:root {
   --body-bg: #ffff;
   --nav-bg: #BBD2CF;
   --text: #1a1a1a;
@@ -16,63 +16,64 @@
   --bs-primary-border-subtle: red;
 }
 
-html, body{
-    overflow-x: hidden;
-    font-family: 'Comfortaa', cursive;
-    color: var(--text);
-    scroll-behavior: smooth;
-    background-color: var(--body-bg);
+html,
+body {
+  overflow-x: hidden;
+  font-family: 'Comfortaa', cursive;
+  color: var(--text);
+  scroll-behavior: smooth;
+  background-color: var(--body-bg);
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    gap: 3rem;
-    margin-top: 3rem;
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 3rem;
+  margin-top: 3rem;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-h1{
-    font-family: 'Fredoka One', cursive;
-    font-size: 4rem;
-    text-align: center;
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 4rem;
+  text-align: center;
 }
 
-h2{
-    font-family: 'Fredoka One', cursive;
-    font-size: 2rem;
-    text-align: center;
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  text-align: center;
 }
 
-h3{
-    font-size: 1.5rem;
+h3 {
+  font-size: 1.5rem;
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #bbd2cf #ffffff;
-  }
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #bbd2cf #ffffff;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 13px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 13px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #bbd2cf;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: #bbd2cf;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

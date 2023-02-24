@@ -1,62 +1,62 @@
-@media only screen and (min-device-width: 1130px){
-  #navbarNavAltMarkup{
+@media only screen and (min-device-width: 1130px) {
+  #navbarNavAltMarkup {
     display: flex;
     justify-content: flex-end;
-}
+  }
 
-.navbar{
-  width: 99%;
-}
-    
-
-
-    /*main*/
-
-    #principal{
-        flex-direction: row;
-    }
-
-    #principal h3{
-        text-align: left;
-      }
-
-    #imgtiago{
-        width: 30%;
-    }
-
-    #principal h3{
-        text-align: left;
-    }
-
-    .subprincipal{
-        align-items: flex-start;
-    }
-
-    #social{
-        flex-direction: row;
-    }
-
-    /*sobre mim*/
-
-    #sobremim p{
-        padding: 0 10rem;
-      }
+  .navbar {
+    width: 99%;
+  }
 
 
 
-    /*hard skills*/
+  /*main*/
 
-  .barra{
+  #principal {
+    flex-direction: row;
+  }
+
+  #principal h3 {
+    text-align: left;
+  }
+
+  #imgtiago {
+    width: 30%;
+  }
+
+  #principal h3 {
+    text-align: left;
+  }
+
+  .subprincipal {
+    align-items: flex-start;
+  }
+
+  #social {
+    flex-direction: row;
+  }
+
+  /*sobre mim*/
+
+  #sobremim p {
+    padding: 0 10rem;
+  }
+
+
+
+  /*hard skills*/
+
+  .barra {
     width: 60%;
   }
 
   /*contato*/
 
-  input{
+  input {
     width: 20rem;
   }
 
-  textarea{
+  textarea {
     width: 20rem;
   }
 }

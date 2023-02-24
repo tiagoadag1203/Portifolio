@@ -1,19 +1,19 @@
-@media only screen and (min-device-width: 521px){
-    #principa{
+@media only screen and (min-device-width: 521px) {
+    #principa {
         flex-wrap: wrap;
     }
-    
-    #imgtiago{
+
+    #imgtiago {
         width: 50%;
     }
 }
 
-@media only screen and (min-device-width: 903px){
+@media only screen and (min-device-width: 903px) {
 
 
     /*main*/
 
-    #imgtiago{
+    #imgtiago {
         width: 50%;
     }
 }

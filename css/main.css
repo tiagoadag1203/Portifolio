@@ -11,7 +11,7 @@
   gap: 2rem;
 }
 
-#principal h3{
+#principal h3 {
   text-align: center;
 }
 
@@ -20,7 +20,7 @@
   border-radius: 3rem;
   -webkit-mask-image: url(/imgs/perfil.svg);
   mask-image: url(/imgs/perfil.svg);
-  -webkit-mask-size:100%;
+  -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -96,7 +96,7 @@ button:active .button_top {
 
 /*sobre mim*/
 
-#sobremim p{
+#sobremim p {
   font-size: 1.5rem;
   text-align: center;
 }
@@ -144,7 +144,7 @@ button:active .button_top {
 
 /*experiencia*/
 
-.cards_experiencia{
+.cards_experiencia {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -152,41 +152,42 @@ button:active .button_top {
   align-items: center;
 }
 
-.card{
+.card {
   border-radius: 10px;
   background-color: #00000000;
   border-color: var(--border-card);
 }
 
-.card-img-top{
+.card-img-top {
   border-radius: 10px;
   padding: 2rem;
   background-color: var(--img-bg-card);
 }
 
-.card-body{
+.card-body {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.card-titulo{
+.card-titulo {
   padding: 5px;
-  width:fit-content;
+  width: fit-content;
   background-color: #BBD2CF;
   border-radius: 4px;
 
 }
+
 /*contato*/
 
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.form-control:focus{
+.form-control:focus {
   border-color: #BBD2CF;
   box-shadow: 0px 0px 0px 4px #bbd2cfb6;
 }
